@@ -13,7 +13,7 @@ app.use(express.json({ limit: "10mb" }));
 
 app.get("/", (req, res) => {
   console.log("Server is running");
-  res.send("Hello World!");
+  res.send("Gal Chatbot (ErnAi)!");
 });
 
 app.post("/save-to-google-sheets", async (req, res) => {
